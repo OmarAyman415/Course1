@@ -1,7 +1,7 @@
 package Project;
 
 public class Admin {
-    /*
+    
     public void addStudent()
     {
     }
@@ -10,7 +10,7 @@ public class Admin {
     {
 
     }
-*/
+   
     public void updateStudents()
     {
 
