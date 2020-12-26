@@ -1,16 +1,16 @@
 package Project;
 
 public class Admin {
+    /*
     public void addStudent()
     {
-
     }
 
     public void deleteStudent()
     {
 
     }
-
+*/
     public void updateStudents()
     {
 
