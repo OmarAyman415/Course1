@@ -1,50 +1,40 @@
 package Project;
 
-public class Person
-{
-    private String Username;
-    private String Password;
-    private int ID;
+public class Person {
+    private String fName;
+    private String mName;
+    private String lName;
 
-    public Person()
-    {
-
+    public Person() {
     }
 
-    public Person(String username, String password, int ID)
-    {
-        Username = username;
-        Password = password;
-        this.ID = ID;
+    public void setfName(String fName) {
+        this.fName = fName;
     }
 
-    public String getUsername()
-    {
-        return Username;
+    public void setmName(String mName) {
+        this.mName = mName;
     }
 
-    public String getPassword()
-    {
-        return Password;
+    public void setlName(String lName) {
+        this.lName = lName;
     }
 
-    public int getID()
-    {
-        return ID;
+    public String getfName() {
+        return fName;
     }
 
-    public void setUsername(String username)
-    {
-        Username = username;
+    public String getmName() {
+        return mName;
     }
 
-    public void setPassword(String Password)
-    {
-        this.Password = Password;
+    public String getlName() {
+        return lName;
     }
 
-    public void setID(int ID)
-    {
-        this.ID = ID;
+    public Person(String fName, String mName, String lName) {
+        this.fName = fName;
+        this.mName = mName;
+        this.lName = lName;
     }
 }
